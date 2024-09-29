@@ -1,0 +1,10 @@
+# /etc/systemd/system/logitech-webcam-fix.service
+
+[Unit]
+Description=Reset USB device and change webcam settings on use
+
+[Service]
+Type=simple
+ExecStart=/home/utilisateur/Documents/logitech-webcam-fix.sh
+[Install]
+WantedBy=multi-user.target
