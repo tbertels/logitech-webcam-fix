@@ -1,6 +1,6 @@
 # logitech-webcam-fix
 
-This systemd unit configuration file and the bash script it starts fix two problems of the Logitech B500: the chipmunk sound and the often too dark image.
+This bash script fixes two problems of the Logitech B500: the chipmunk sound and the often too dark image.
 
 The bash script continuously checks if a new usb audio or video device is being used. This could mean that the webcam microphone or video is being used.
 It then either resets the camera (using usbreset) or enables then disables the auto exposure and manually sets the gain using v4l2-ctl.
