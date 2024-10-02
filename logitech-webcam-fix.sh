@@ -32,7 +32,7 @@ do
           sleep 0.5
           /usr/bin/v4l2-ctl -c auto_exposure=1
           /usr/bin/v4l2-ctl -c gain=119
-          lines_video_old=$lines_video
       fi
+      lines_video_old=$lines_video
   fi
 done
